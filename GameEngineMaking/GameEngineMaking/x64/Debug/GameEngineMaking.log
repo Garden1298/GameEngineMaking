@@ -1,0 +1,21 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 중간 디렉터리(x64\Debug\)에 다른 프로젝트(GameAI_Object_Making.vcxproj, GameEngine_Objective_Making.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  ControlableObject.cpp
+  FileManager.cpp
+D:\University\3rd\2학기\GameEngineMaking\GameEngineMaking\GameEngineMaking\FileManager.cpp(134,3): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': 매크로 재정의
+D:\University\3rd\2학기\GameEngineMaking\GameEngineMaking\GameEngineMaking\include\GLFW\glfw3.h(123): message : 'APIENTRY'의 이전 정의를 참조하십시오.
+  NonRenderableObject.cpp
+  NonRenderSample.cpp
+  Object.cpp
+  RenderableObject.cpp
+  Renderer.cpp
+D:\University\3rd\2학기\GameEngineMaking\GameEngineMaking\GameEngineMaking\Renderer.cpp(146,3): warning C4267: '인수': 'size_t'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Sphere.cpp
+  Time.cpp
+D:\University\3rd\2학기\GameEngineMaking\GameEngineMaking\GameEngineMaking\Time.cpp(11,34): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\University\3rd\2학기\GameEngineMaking\GameEngineMaking\GameEngineMaking\Time.cpp(20,23): warning C4244: '초기화 중': 'LONGLONG'에서 'double'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+D:\University\3rd\2학기\GameEngineMaking\GameEngineMaking\GameEngineMaking\FileManager.cpp(115): warning C4715: 'FileManager::csv_read_row': 모든 제어 경로에서 값을 반환하지는 않습니다.
+MSVCRTD.lib(initializers.obj) : warning LNK4098: 'msvcrt.lib' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+  GameEngineMaking.vcxproj -> D:\University\3rd\2학기\GameEngineMaking\GameEngineMaking\x64\Debug\GameEngineMaking.exe
