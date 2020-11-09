@@ -16,6 +16,9 @@
 #include "ControlableObject.h"
 #include "Time.h"
 
+
+#include "TestObj.h"
+
 using namespace glm;
 
 #pragma comment(lib, "OpenGL32.lib")
@@ -34,6 +37,8 @@ int main()
 	RenderableObject* cube = new RenderableObject();
 	renderer->addObject(cube);
 	cube->setPosition(glm::vec3(1.0f, 1.0f, 1.0f));
+
+	///TestObj* test_obj = new TestObj();
 
 	file_mgr->loadObj(
 		cube,
